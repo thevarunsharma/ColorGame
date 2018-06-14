@@ -1,0 +1,65 @@
+body{
+    background-color: #151515;
+}
+h1{
+background-color: rgb(51,58,127);
+color:white;
+text-align: center;
+margin: -0.5vw;
+font-size: 2.5vw;
+font-family: acme;
+padding: 1.5vw;
+font-weight: lighter;
+overflow: hidden;
+transition: background-color 0.5s;
+}
+#rgb{
+  font-size: 250%;
+}
+#navbar{
+  background-color: white;
+  color:rgb(51,58,127);
+  text-align: center;
+  margin: -0.5vw;
+  font-family: 'Krona One';
+  overflow: hidden;
+}
+button{
+  font-size: 1.5vw;
+  font-family: 'Krona One';
+  padding: 5px;
+  background-color: inherit;
+  color: inherit;
+  border:none;
+  font-weight: bold;
+  outline: none;
+}
+button:hover{
+  color: white;
+  background-color: rgb(51,58,127);
+}
+.pressed{
+  color: white;
+  background-color: rgb(51,58,127);
+}
+#result{
+  display: inline-block;
+  margin:0 15vw 0 15vw;
+  font-size: 1.5vw;
+  width:20vw;
+}
+#squares{
+  padding-right: 23vw;
+  padding-left: 23vw;
+  padding-top: 2vw;
+}
+.box{
+  background-color: white;
+  width: 15vw;
+  padding-top : 15vw;
+  border-radius: 10%;
+  float: left;
+  margin: 1vw;
+  visibility: visible;
+  transition: background-color 0.5s;
+}
