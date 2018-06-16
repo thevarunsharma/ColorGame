@@ -57,6 +57,7 @@ function newGame(n){
   result.innerText=""
   var colors=getcolors(n)
   for(var i=0;i<n;i++){
+    boxes[i].style.visibility="visible"
     boxes[i].style.display="block"
     boxes[i].style.backgroundColor="rgb("+colors[i].join(', ')+")"
   }
